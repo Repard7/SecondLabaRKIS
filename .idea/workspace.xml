@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c2c1510-1bb7-4a37-9dfc-7e911bbce1c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/REST-Api-Django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6c2c1510-1bb7-4a37-9dfc-7e911bbce1c2" name="Changes" comment="Создал начальное приложение - RestApiDjango;&#10;Создал основное рабочее приложение - RestApiBooks;">
+      <change beforePath="$PROJECT_DIR$/.idea/REST-Api-Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/REST-Api-Django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApiDjango/RestApiDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/RestApiDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApiDjango/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Repard7&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Repard7/SecondLabaRKIS.git&quot;,
+    &quot;accountId&quot;: &quot;6a712a97-7f17-47fa-ab32-fb978e9e4c17&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -33,6 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/РабочийСтол/Учеба/3 курс, 1 семестр/РКИС/РКИС 1 лаба/mysite",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -60,11 +73,25 @@
       <option name="presentableId" value="Default" />
       <updated>1760708333185</updated>
       <workItem from="1760708333987" duration="362000" />
-      <workItem from="1760708714660" duration="471000" />
+      <workItem from="1760708714660" duration="880000" />
+      <workItem from="1760709670758" duration="482000" />
     </task>
+    <task id="LOCAL-00001" summary="Создал начальное приложение - RestApiDjango;&#10;Создал основное рабочее приложение - RestApiBooks;">
+      <option name="closed" value="true" />
+      <created>1760709285786</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760709285786</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Создал начальное приложение - RestApiDjango;&#10;Создал основное рабочее приложение - RestApiBooks;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал начальное приложение - RestApiDjango;&#10;Создал основное рабочее приложение - RestApiBooks;" />
   </component>
 </project>
