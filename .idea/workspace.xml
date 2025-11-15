@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c2c1510-1bb7-4a37-9dfc-7e911bbce1c2" name="Changes" comment="Создал файл gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/models.py" afterDir="false" />
+    <list default="true" id="6c2c1510-1bb7-4a37-9dfc-7e911bbce1c2" name="Changes" comment="Создал модель">
+      <change beforePath="$PROJECT_DIR$/RestApiDjango/RestApiDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/RestApiDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApiDjango/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <workItem from="1760708714660" duration="880000" />
       <workItem from="1760709670758" duration="593000" />
       <workItem from="1761621518067" duration="16000" />
-      <workItem from="1763213457380" duration="2148000" />
+      <workItem from="1763213457380" duration="2510000" />
     </task>
     <task id="LOCAL-00001" summary="Создал начальное приложение - RestApiDjango;&#10;Создал основное рабочее приложение - RestApiBooks;">
       <option name="closed" value="true" />
@@ -100,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763213493981</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Создал модель">
+      <option name="closed" value="true" />
+      <created>1763215824930</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763215824930</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +128,7 @@
     <MESSAGE value="Создал начальное приложение - RestApiDjango;&#10;Создал основное рабочее приложение - RestApiBooks;" />
     <MESSAGE value="Применил базовые миграции;&#10;Добавил в settings в приложения RestApiBooks" />
     <MESSAGE value="Создал файл gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал файл gitignore" />
+    <MESSAGE value="Создал модель" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал модель" />
   </component>
 </project>
