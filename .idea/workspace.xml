@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c2c1510-1bb7-4a37-9dfc-7e911bbce1c2" name="Changes" comment="Создал начальное приложение - RestApiDjango;&#10;Создал основное рабочее приложение - RestApiBooks;">
-      <change beforePath="$PROJECT_DIR$/.idea/REST-Api-Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/REST-Api-Django.iml" afterDir="false" />
+    <list default="true" id="6c2c1510-1bb7-4a37-9dfc-7e911bbce1c2" name="Changes" comment="Создал файл gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestApiDjango/RestApiDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/RestApiDjango/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestApiDjango/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/РабочийСтол/Учеба/3 курс, 1 семестр/РКИС/РКИС 1 лаба/mysite",
+    "last_opened_file_path": "D:/РабочийСтол/Устаревшая учеба/3 курс, 1 семестр/РКИС/РКИС 2 лаба/REST-Api-Django",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +72,9 @@
       <updated>1760708333185</updated>
       <workItem from="1760708333987" duration="362000" />
       <workItem from="1760708714660" duration="880000" />
-      <workItem from="1760709670758" duration="482000" />
+      <workItem from="1760709670758" duration="593000" />
+      <workItem from="1761621518067" duration="16000" />
+      <workItem from="1763213457380" duration="2148000" />
     </task>
     <task id="LOCAL-00001" summary="Создал начальное приложение - RestApiDjango;&#10;Создал основное рабочее приложение - RestApiBooks;">
       <option name="closed" value="true" />
@@ -84,14 +84,43 @@
       <option name="project" value="LOCAL" />
       <updated>1760709285786</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Применил базовые миграции;&#10;Добавил в settings в приложения RestApiBooks">
+      <option name="closed" value="true" />
+      <created>1760710254035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760710254035</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Создал файл gitignore">
+      <option name="closed" value="true" />
+      <created>1763213493981</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763213493981</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создал начальное приложение - RestApiDjango;&#10;Создал основное рабочее приложение - RestApiBooks;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал начальное приложение - RestApiDjango;&#10;Создал основное рабочее приложение - RestApiBooks;" />
+    <MESSAGE value="Применил базовые миграции;&#10;Добавил в settings в приложения RestApiBooks" />
+    <MESSAGE value="Создал файл gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал файл gitignore" />
   </component>
 </project>
