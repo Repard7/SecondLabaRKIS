@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c2c1510-1bb7-4a37-9dfc-7e911bbce1c2" name="Changes" comment="Создал представления, сериализаторы, основные пути на работу с авторами и книгами и добавил в настройки нюансы с DRF">
+    <list default="true" id="6c2c1510-1bb7-4a37-9dfc-7e911bbce1c2" name="Changes" comment="Папки с файлами подтянул">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestApiDjango/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,7 @@
       <workItem from="1760709670758" duration="593000" />
       <workItem from="1761621518067" duration="16000" />
       <workItem from="1763213457380" duration="2793000" />
-      <workItem from="1763269737119" duration="3393000" />
+      <workItem from="1763269737119" duration="5227000" />
     </task>
     <task id="LOCAL-00001" summary="Создал начальное приложение - RestApiDjango;&#10;Создал основное рабочее приложение - RestApiBooks;">
       <option name="closed" value="true" />
@@ -141,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763272019461</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Исправил urls.py и serializers.py и протестировал -&gt; основа работает">
+      <option name="closed" value="true" />
+      <created>1763273566722</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1763273566722</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Папки с файлами подтянул">
+      <option name="closed" value="true" />
+      <created>1763273579870</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763273579870</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +182,8 @@
     <MESSAGE value="Написал пути для медиа в settings.py, установил pillow и провел миграцию" />
     <MESSAGE value="Добавил возможность работать с медиапутями в режиме разработки" />
     <MESSAGE value="Создал представления, сериализаторы, основные пути на работу с авторами и книгами и добавил в настройки нюансы с DRF" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал представления, сериализаторы, основные пути на работу с авторами и книгами и добавил в настройки нюансы с DRF" />
+    <MESSAGE value="Исправил urls.py и serializers.py и протестировал -&gt; основа работает" />
+    <MESSAGE value="Папки с файлами подтянул" />
+    <option name="LAST_COMMIT_MESSAGE" value="Папки с файлами подтянул" />
   </component>
 </project>
