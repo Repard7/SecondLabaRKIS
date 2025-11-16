@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c2c1510-1bb7-4a37-9dfc-7e911bbce1c2" name="Changes" comment="Добавил возможность работать с медиапутями в режиме разработки">
-      <change afterPath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/urls.py" afterDir="false" />
+    <list default="true" id="6c2c1510-1bb7-4a37-9dfc-7e911bbce1c2" name="Changes" comment="Создал представления, сериализаторы, основные пути на работу с авторами и книгами и добавил в настройки нюансы с DRF">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestApiDjango/RestApiDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/RestApiDjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestApiDjango/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <workItem from="1760709670758" duration="593000" />
       <workItem from="1761621518067" duration="16000" />
       <workItem from="1763213457380" duration="2793000" />
-      <workItem from="1763269737119" duration="1966000" />
+      <workItem from="1763269737119" duration="3393000" />
     </task>
     <task id="LOCAL-00001" summary="Создал начальное приложение - RestApiDjango;&#10;Создал основное рабочее приложение - RestApiBooks;">
       <option name="closed" value="true" />
@@ -134,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763216214835</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Создал представления, сериализаторы, основные пути на работу с авторами и книгами и добавил в настройки нюансы с DRF">
+      <option name="closed" value="true" />
+      <created>1763272019461</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763272019461</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +165,7 @@
     <MESSAGE value="Создал модель" />
     <MESSAGE value="Написал пути для медиа в settings.py, установил pillow и провел миграцию" />
     <MESSAGE value="Добавил возможность работать с медиапутями в режиме разработки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил возможность работать с медиапутями в режиме разработки" />
+    <MESSAGE value="Создал представления, сериализаторы, основные пути на работу с авторами и книгами и добавил в настройки нюансы с DRF" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал представления, сериализаторы, основные пути на работу с авторами и книгами и добавил в настройки нюансы с DRF" />
   </component>
 </project>
