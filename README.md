@@ -21,6 +21,7 @@ Django REST Framework проект для управления электрон�
 - Django REST Framework 3.16.1
 - Pillow 11.3.0 (работа с изображениями)
 - SQLite (база данных)
+- Postman (тесты)
 
 ## Установка и запуск
 1. Клонируйте репозиторий:
@@ -32,3 +33,9 @@ Django REST Framework проект для управления электрон�
    `python manage.py migrate`
 4. Запустите сервер
    `python manage.py runserver`
+   
+## Примеры тестовых запросов
+- http://localhost:8000/api/book/
+- http://localhost:8000/api/book/1/
+- http://localhost:8000/api/author/
+- http://localhost:8000/api/author/1/
