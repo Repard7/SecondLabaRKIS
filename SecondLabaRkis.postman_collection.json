@@ -1,0 +1,518 @@
+{
+	"info": {
+		"_postman_id": "3cab558b-c88e-4a4d-9d07-98a95e49da9b",
+		"name": "SecondLabaRkis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43203027"
+	},
+	"item": [
+		{
+			"name": "books",
+			"item": [
+				{
+					"name": "Добавление",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "Война",
+									"type": "text"
+								},
+								{
+									"key": "year_release",
+									"value": "2020",
+									"type": "text"
+								},
+								{
+									"key": "genre",
+									"value": "Роман-эпопея",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "fiction",
+									"description": "fiction либо textbook",
+									"type": "text"
+								},
+								{
+									"key": "publisher",
+									"value": "ACTП",
+									"type": "text"
+								},
+								{
+									"key": "author",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/Ростислав Грачев/Downloads/MangaImage5.jpg"
+								},
+								{
+									"key": "text_file",
+									"type": "file",
+									"src": "/D:/РабочийСтол/Текст войны и мир.txt"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{rkis2laba_base}}/book/",
+							"host": [
+								"{{rkis2laba_base}}"
+							],
+							"path": [
+								"book",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ОтображениеВсех",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{rkis2laba_base}}/book/",
+							"host": [
+								"{{rkis2laba_base}}"
+							],
+							"path": [
+								"book",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ОтображениеОдного",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{rkis2laba_base}}/book/2",
+							"host": [
+								"{{rkis2laba_base}}"
+							],
+							"path": [
+								"book",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "УдалениеОдного",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{rkis2laba_base}}/book/4/",
+							"host": [
+								"{{rkis2laba_base}}"
+							],
+							"path": [
+								"book",
+								"4",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ПолноеИзменениеОдного",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "Война",
+									"type": "text"
+								},
+								{
+									"key": "year_release",
+									"value": "2020",
+									"type": "text"
+								},
+								{
+									"key": "genre",
+									"value": "Роман-эпопея",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "fiction",
+									"type": "text"
+								},
+								{
+									"key": "publisher",
+									"value": "АСТ",
+									"type": "text"
+								},
+								{
+									"key": "author",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/Ростислав Грачев/Downloads/MangaImage4.jpg"
+								},
+								{
+									"key": "text_file",
+									"type": "file",
+									"src": "/D:/РабочийСтол/Текст войны и мир.txt"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{rkis2laba_base}}/book/1/",
+							"host": [
+								"{{rkis2laba_base}}"
+							],
+							"path": [
+								"book",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ЧастичноеИзменениеОдного",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Нет, миру!\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{rkis2laba_base}}/book/3/",
+							"host": [
+								"{{rkis2laba_base}}"
+							],
+							"path": [
+								"book",
+								"3",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "authors",
+			"item": [
+				{
+					"name": "Добавление",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\": \"Лев\",\r\n    \"last_name\": \"Толстой\",\r\n    \"patronymic\": \"Николаевич\",\r\n    \"biography\": \"Великий русский писатель, классик мировой литературы. Автор романов 'Война и мир', 'Анна Каренина' и многих других произведений.\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{rkis2laba_base}}/author/",
+							"host": [
+								"{{rkis2laba_base}}"
+							],
+							"path": [
+								"author",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ОтображениеВсех",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{rkis2laba_base}}/author/",
+							"host": [
+								"{{rkis2laba_base}}"
+							],
+							"path": [
+								"author",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ОтображениеОдного",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{rkis2laba_base}}/author/1",
+							"host": [
+								"{{rkis2laba_base}}"
+							],
+							"path": [
+								"author",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "УдалениеОдного",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{rkis2laba_base}}/author/2/",
+							"host": [
+								"{{rkis2laba_base}}"
+							],
+							"path": [
+								"author",
+								"2",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ПолноеИзменениеОдного",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\": \"Алексей\",\r\n    \"last_name\": \"Толстый\",\r\n    \"patronymic\": \"Николя\",\r\n    \"biography\": \"Великий русский писатель, классик мировой литературы. Автор романов 'Война и мир', 'Анна Каренина' и многих других произведений.\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{rkis2laba_base}}/author/1/",
+							"host": [
+								"{{rkis2laba_base}}"
+							],
+							"path": [
+								"author",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ЧастичноеИзменениеОдного",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\": \"Боря\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{rkis2laba_base}}/author/1/",
+							"host": [
+								"{{rkis2laba_base}}"
+							],
+							"path": [
+								"author",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base",
+			"value": "http://127.0.0.1:8000/api",
+			"type": "string"
+		}
+	]
+}

@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c2c1510-1bb7-4a37-9dfc-7e911bbce1c2" name="Changes" comment="Немного подправил фильтрацию">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="6c2c1510-1bb7-4a37-9dfc-7e911bbce1c2" name="Changes" comment="Подравил ошибки, а также добавил файл с зависимостями">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/RestApiBooks/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestApiDjango/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/RestApiDjango/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
       <workItem from="1761621518067" duration="16000" />
       <workItem from="1763213457380" duration="2793000" />
       <workItem from="1763269737119" duration="5268000" />
-      <workItem from="1763344269916" duration="7028000" />
+      <workItem from="1763344269916" duration="7874000" />
     </task>
     <task id="LOCAL-00001" summary="Создал начальное приложение - RestApiDjango;&#10;Создал основное рабочее приложение - RestApiBooks;">
       <option name="closed" value="true" />
@@ -174,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763349023010</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Подравил ошибки, а также добавил файл с зависимостями">
+      <option name="closed" value="true" />
+      <created>1763353169943</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1763353169943</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +209,7 @@
     <MESSAGE value="Папки с файлами подтянул" />
     <MESSAGE value="Добавил правильную обработку исключений при обавлении книг" />
     <MESSAGE value="Немного подправил фильтрацию" />
-    <option name="LAST_COMMIT_MESSAGE" value="Немного подправил фильтрацию" />
+    <MESSAGE value="Подравил ошибки, а также добавил файл с зависимостями" />
+    <option name="LAST_COMMIT_MESSAGE" value="Подравил ошибки, а также добавил файл с зависимостями" />
   </component>
 </project>
