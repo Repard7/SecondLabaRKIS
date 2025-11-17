@@ -7,7 +7,7 @@ from .serializers import BookSerializer, AuthorSerializer
 class BookViewSet(viewsets.ModelViewSet):
     queryset = Book.objects.all()
     serializer_class = BookSerializer
-    filter_backends = [filters.SearchFilter]
+    filter_backends = [filters.SearchFilter]  # ТОЛЬКО SearchFilter
     search_fields = ['title', 'genre', 'author__first_name', 'author__last_name']
 
     def get_permissions(self):
