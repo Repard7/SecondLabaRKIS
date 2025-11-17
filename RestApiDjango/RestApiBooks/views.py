@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from rest_framework import filters, viewsets, permissions
 from .models import Book, Author
 from .serializers import BookSerializer, AuthorSerializer
